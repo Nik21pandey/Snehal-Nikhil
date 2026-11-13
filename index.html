@@ -15,7 +15,7 @@
 <title>Snehal &amp; Nikhil</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Marcellus&family=Playfair+Display:ital,wght@1,400;1,500&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Marcellus&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet">
 <style>
 :root{
   /* Layout: one phone-width column. A floral envelope opens onto a gilded cusped palace arch
@@ -359,6 +359,9 @@ h2{font-size:2.3rem;font-weight:500}
 .close .sig{color:var(--gold-bright)}
 .close .tag{color:#fff3d6;border-color:var(--gold);background:rgba(38,6,14,.5)}
 
+
+/* clear numerals: the 1 has a flag, so 11 never reads as II */
+.slide .big,.date-line strong,.clock b{font-family:"Playfair Display",Georgia,serif;font-style:normal;font-variant-numeric:lining-nums tabular-nums}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition-duration:.01s!important;transition-delay:0s!important}
   html{scroll-behavior:auto}
